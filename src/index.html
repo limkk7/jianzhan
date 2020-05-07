@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <title>简站 - 简单导航站点</title>
+  <link rel="stylesheet" href="./style.css">
+  <style type="text/css">
+    .icon {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="globalHeader">
+    <form class="searchForm" method="get" action="https://www.baidu.com/s">
+      <input name="wd" type="text">
+      <button type="submit">搜索</button>
+    </form>
+  </header>
+  <main class="globalMain">
+    <ul class="siteList">
+      <li>
+        <a href="https://www.acfun.cn/">
+          <div class="site">
+            <div class="logo">A</div>
+            <div class="link">acfun.cn</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.bilibili.com/">
+          <div class="site">
+            <div class="logo">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#iconbilibili"></use>
+              </svg>
+            </div>
+            <div class="link">bilibili.com</div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <div class="addButton">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#iconadd"></use>
+          </svg>
+          <div class="text">新增站点</div>
+        </div>
+      </li>
+    </ul>
+  </main>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <script src="//at.alicdn.com/t/font_1804133_xml9aif2and.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
