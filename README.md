@@ -1,0 +1,1 @@
+vscode 使用 live sever 打开即可本地实时预览
