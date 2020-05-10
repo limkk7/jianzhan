@@ -64,3 +64,6 @@ $(document).on('keypress', (e) => {
     }
   }
 })
+$('.wd-input').on('keypress', (e) => {
+  e.stopPropagation()
+})
